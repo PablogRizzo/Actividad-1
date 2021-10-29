@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Zen+Kaku+Gothic+New:wght@300&display=swap');
+
+*{
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    float: left;
+    margin: 45px 0 0 120px;
+    height: 300px;
+    width: 200px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+.container-img{
+    position: relative;
+    width: 100%;
+    background-color: #f7f5ec;
+    height: 85%;
+}
+
+.container-info{
+    position: relative;
+    width: 100%;
+    background-color: #1369ce;
+    height: 15%;
+}
+
+.foto1{
+    position: absolute;
+    background-image: url(img/Screenshot_20210804-144347_1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 0 40px;
+}
+
+.foto2{
+    position: absolute;
+    background-image: url(IMG/Perfil2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 0 40px;
+}
+
+.foto3{
+    position: absolute;
+    background-image: url(img/GettyImages-884727654+\(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 0 40px;
+}
+
+.foto4{
+    position: absolute;
+    background-image: url(img/72df30b8b200848e492625ef95dd2e50.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 0 40px;
+}
+
+.nombre{
+    position: absolute;
+    margin: 175px 0 0 50px;
+}
+
+.oficio{
+    position: absolute;
+    margin: 225px 0 0 55px;
+}
+
+.icon{
+    float: left;
+    margin: 15px 0 0 27px ;
+    color: #fff;
+}
+
+.nombre2{
+    position: absolute;
+    margin: 175px 0 0 20px;
+}
+
+.nombre3{
+    position: absolute;
+    margin: 175px 0 0 8px;
+}
+
+.nombre4{
+    position: absolute;
+    margin: 175px 0 0 35px;
+}
